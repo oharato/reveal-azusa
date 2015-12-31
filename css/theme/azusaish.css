@@ -87,10 +87,10 @@ body {
   font-weight: bold; }
 
 .reveal em {
-  color: rgb(50,180,144); }
+  color: rgb(50,180,144) !important; }
 
 .reveal .bg-green em {
-  color: rgb(254,246,227); }
+  color: rgb(254,246,227) !important; }
 
 .reveal ol,
 .reveal dl,
@@ -227,6 +227,13 @@ body {
 .reveal .roll span:after {
   color: rgb(254,246,227);
   background: #1a53a1; }
+
+.reveal em a {
+  color: rgb(50,180,144);
+}
+.reveal em a:hover {
+  color: rgb(46, 204, 113);
+}
 
 /*********************************************
  * IMAGES
